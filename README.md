@@ -77,6 +77,8 @@ In addition to the work on the core protocol, we are working on features to help
 
 ### A high level SDK for building applications with Dat
 
+![A diagram of the various pieces of the Dat ecosystem](https://user-images.githubusercontent.com/911495/59621049-627c9180-90fc-11e9-9acc-1f6deea4932d.png)
+
 Getting Dat to work in different environments has meant combining different libraries together for each application.
 
 The [SDK](https://github.com/datproject/sdk) will abstract some of the interaction with the networking and storage portions of Dat in order to simplify application development.

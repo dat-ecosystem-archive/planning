@@ -56,7 +56,6 @@ The third and final improvement will be "union mounts." Like one-way mounts, the
         1.  [ ] Update the protocol specs
     1.  Implement in applications and downstream modules
         1.  [ ] Dat CLI
-        1.  [ ] Dat-node module
         1.  [ ] Beaker browser
 1. **Community**
     1.  [ ] Dat 1 to Dat 2 Upgrade guide

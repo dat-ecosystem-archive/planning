@@ -35,21 +35,20 @@ The third and final improvement will be "union mounts." Like one-way mounts, the
 
 1.  **Performance improvements**
     1.  [ ] New trie data-structure
-        1.  [ ] Integrate Hypertrie into Hyperdrive [issue](https://github.com/mafintosh/hyperdrive/pull/233)
+        1.  [x] Integrate Hypertrie into Hyperdrive [issue](https://github.com/mafintosh/hyperdrive/pull/233)
         1.  [ ] Add header-detection and incompatibility handling
         1.  [ ] Backwards compatibility (correctly use the loaded version's code)
         1.  [ ] Update the protocol specs
     1.  Implement in applications and downstream modules
-        1.  [ ] Dat CLI
-        1.  [ ] Dat-node module
-        1.  [ ] Beaker browser
+        1.  [ ] Dat CLI (TBD)
+        1.  [ ] Dat SDK module & deprecate dat-node (RangerMauve)
+        1.  [ ] Beaker browser (Paul)
 1.  **"One-way" mounts**
-    1.  [ ] Data structure updates
-        1.  [ ] Implement one-way mounts in Hyperdrive [issue](https://github.com/mafintosh/hyperdrive/pull/233)
-        1.  [ ] Update the protocol specs
+    1.  [x] Data structure updates
+        1.  [x] Implement one-way mounts in Hyperdrive [issue](https://github.com/mafintosh/hyperdrive/pull/233)
+        1.  [x] Update the protocol specs
     1.  [ ] Implement in applications and downstream modules
         1.  [ ] Dat CLI
-        1.  [ ] Dat-node module
         1.  [ ] Beaker browser
 1.  **"Union" mounts (Multiwriter)**
     1.  [ ] Data structure updates
@@ -59,7 +58,9 @@ The third and final improvement will be "union mounts." Like one-way mounts, the
         1.  [ ] Dat CLI
         1.  [ ] Dat-node module
         1.  [ ] Beaker browser
-
+1. **Community**
+    1.  [ ] Dat 1 to Dat 2 Upgrade guide
+    1.  [ ] Replace dat-node with Dat SDK in docs.datproject.org
 
 ### Networking improvements
 
